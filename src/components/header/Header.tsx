@@ -1,6 +1,7 @@
 import BottomHeader from "./BottomHeader";
 import MiddleHeader from "./MiddleHeader";
 import TopHeader from "./TopHeader";
+import SearchFeild from "./SearchFeild"
 
 const Header = () => {
   return (
@@ -12,6 +13,8 @@ const Header = () => {
         <MiddleHeader />
         {/* BottomHeader */}
         <BottomHeader />
+        {/* Search Field practice */}
+        <SearchFeild />
       </div>
     </header>
   );
