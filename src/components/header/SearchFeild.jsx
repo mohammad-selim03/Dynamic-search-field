@@ -16,13 +16,6 @@ const SearchFeild = () => {
           onChange={(e) => SetSearchValue(e.target.value)}
           className="w-full h-10  border-2 border-red-400 outline-none px-4 "
         />
-        <input
-          type="text"
-          placeholder="Search products..."
-          value={searchValue}
-          onChange={(e) => SetSearchValue(e.target.value)}
-          className="w-full h-10  border-2 border-red-400 outline-none px-4 "
-        />
         {searchValue && (
           <span
             onClick={() => SetSearchValue("")}
