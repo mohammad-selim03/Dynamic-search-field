@@ -4,7 +4,7 @@ import Container from "../Container";
 import { RiCloseLine, RiSearchLine } from "react-icons/ri";
 
 const SearchFeild = () => {
-  const [searchValue, SetSearchValue] = useState("");
+  // const [searchValue, SetSearchValue] = useState("");
 
   return (
     <Container>
@@ -29,7 +29,8 @@ const SearchFeild = () => {
           <RiSearchLine />
         </span>
       </div>
-    </Container>
+    </Container>  
+    // not mandetory as well.
   );
 };
 
